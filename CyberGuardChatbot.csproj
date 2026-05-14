@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<!-- Changed from Exe to WinExe -->
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<!-- Added -windows -->
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<!-- ADD THIS -->
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Windows.Extensions" Version="10.0.5" />
+	</ItemGroup>
+
+</Project>
